@@ -53,3 +53,5 @@ qnorm(0.3, mean = n*mu, sd = sqrt(n)*sd)
 
 qnorm(0.3)
 (qnorm(0.3)*sd)+n*mu
+
+qnorm(0.05)
