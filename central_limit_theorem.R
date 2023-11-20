@@ -55,3 +55,21 @@ qnorm(0.3)
 (qnorm(0.3)*sd)+n*mu
 
 qnorm(0.05)
+
+
+#Task 9
+sd_bar <- qnorm(0.05)
+sd_bar
+
+sd <- 0.5
+
+n <- (sd*sd_bar)^2/0.01
+n
+
+
+#Task 11
+p <- 1 - pbinom(440, 500, 0.9)
+p
+
+p2 <- 1 - pbinom(284, 300, p)
+pbinom(284, 300, p)
