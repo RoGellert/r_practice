@@ -29,6 +29,6 @@ sd <- sd(data)
 n <- length(data)
 cf <- c(mu-(qt(0.975, df=n-1)*sd)/sqrt(n), mu+(qt(0.975, df=n-1)*sd)/sqrt(n))
 
-#exercise9
+
 
 
