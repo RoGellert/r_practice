@@ -1,11 +1,11 @@
-#exercise1
+#exercise 1
 
 qt(0.95, df=11)
 qt(0.975, df=6)
 qt(0.995, df=1)
 qt(0.975, df=28)
 
-#exercise3
+#exercis 3
 
 1-2*pt(-2.776, df=4)
 1-2*pt(-2.718, df=11)
