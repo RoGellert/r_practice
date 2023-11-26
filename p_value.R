@@ -7,3 +7,12 @@ h0 <- 100
 
 t <- (mu - h0)*sqrt(length(data))/sd
 2*(1 - pt(t, df = length(data)-1))
+
+#Task 3
+df <- 7
+mu <- 6.5
+sd <- 1.9
+n <- 8
+
+t <- (mu - 5)*sqrt(n)/sd
+1 - pt(t, df=df)
